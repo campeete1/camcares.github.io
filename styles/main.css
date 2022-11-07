@@ -50,10 +50,20 @@ button{
     margin-right: 30px;
     padding: 15px 30px;
     background-color: #c619ff;
+    color: white;
     border: none;
     font-size: 16px;
 }
+button a{
+    text-decoration: none;
+    text-emphasis-style: none;
+    background-color: #c619ff;
+}
 button:hover{
+    background-color: white;
+    color: #c619ff;
+}
+.Iniatiatives-btn:hover{
     color:#c619ff;
     background-color: white;
 }
