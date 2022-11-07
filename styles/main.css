@@ -14,12 +14,13 @@
 .navbar{
     width: 100%;
     display: flex;
+    align-self: center;
     align-items: center;
 }
 .logo{
     width: 75px;
     cursor: pointer;
-    margin-top: 16px;
+    margin-top: 32px;
     position: relative;
 }
 .menu-icon{
@@ -36,6 +37,7 @@ nav ul li {
     list-style: none;
     display: inline-block;
     margin-right: 30px;
+
 }
 nav ul li a {
     text-decoration: none;
