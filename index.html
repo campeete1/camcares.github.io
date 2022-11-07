@@ -16,22 +16,47 @@
         <div class="navbar">
             <img src="https://cammydev.sirv.com/camcares/assets/care%20clover.png" class="logo">
             <nav>
-                <ul>
+                <ul id="menuList">
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
                     <button>Initiative</button>
-
                 </ul>
             </nav>
-            <img src="https://cammydev.sirv.com/camcares/assets/menu%20bar.png" class="menu-icon">
+            <img src="https://cammydev.sirv.com/camcares/assets/menu%20bar.png" class="menu-icon" onclick="togglemenu()">
         </div>
         <div class="row">
+
             <div class="col-1">
-                <h2>Cameron McCullough<br>Junior Class President</h2>
+                <h1 class="cam-header-1">Hello, I'm Cameron!</h1>
+                <h2>Junior Class President</h2>
+                <p class="cam-subtext-1">Last year, I was elected by my peers to represent the Centennial High School class of 2024. I served this office for one school term, and have decided on rerunning for Junior Class President.</p>
+                <br>
+                <div class="learn-cta-1">
+                    <button class="button-learn-more-1" type="button">Learn More</button>
+                </div>
             </div>
-            <div class="col-2"></div>
+            <div class="col-2">
+                <img class="cam-img-1" src="https://assets.cammy.dev/cameron.dev/assets/cameron.jpg">
         </div>
     </div>
+
+        <script>
+            var menuList = document.getElementById("menuList");
+
+            menuList.style.maxHeight = "0px";
+
+            function togglemenu(){
+
+                if(menuList.style.maxHeight == "0px")
+                    {
+                        menuList.style.maxHeight = "130px";
+                    }
+                else
+                    {
+                        menuList.style.maxHeight = "0px"
+                    }
+            }
+        </script>
 </body>
 </html>

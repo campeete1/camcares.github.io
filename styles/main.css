@@ -17,17 +17,20 @@
     align-items: center;
 }
 .logo{
-    width: 50px;
+    width: 75px;
     cursor: pointer;
-    margin: 30px 0;
+    margin-top: 16px;
+    position: relative;
 }
 .menu-icon{
     width: 25px;
     cursor: pointer;
+    display: none;
 }
 nav{
     flex: 1;
     text-align: right;
+    align-items: center;
 }
 nav ul li {
     list-style: none;
@@ -53,4 +56,94 @@ button{
 button:hover{
     color:#c619ff;
     background-color: white;
+}
+.button-learn-more-1 {
+    font-size: 14px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0;
+    gap: 75px;
+}
+.col-1{
+    flex-basis: 50%;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.col-1 h1{
+    font-size: 46px;
+    font-weight: bold;
+}
+.col-1 h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0 10px;
+}
+.col-1 p{
+font-weight: 500;
+}
+.col-2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.col-2 .cam-img-1{
+    max-width: 400px;
+}
+.cam-img-1{
+    border-radius: 25px;
+
+}
+
+@media only screen and (max-width:750px){
+    nav ul{
+        width: 100%;
+        background: white;
+        position:absolute;
+        top: 100px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li button{
+        display: block;
+    }
+    nav ul li a{
+        color: black;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    li a{
+        background-color: white;
+    }
+    button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    button:hover{
+        color:#c619ff;
+        background-color: #1d1d1d;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        overflow: hidden;
+        transition:0.5s;
+    }
+    .row{
+        flex-direction:column-reverse ;
+        margin: 50px 0;
+        gap: 25px;
+    }
+    .col-2 .cam-img-1{
+        max-width: 300px;
+    }
+    .logo{
+        margin-top: 0;
+    }
 }
