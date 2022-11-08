@@ -20,7 +20,6 @@
 .ini-col-1{
     background-color: #c619ff;
     border-radius: 25px;
-    z-index: 7;
 }
 .ini-col-1 h2{
 background-color: #c619ff;
@@ -79,15 +78,18 @@ button:hover{
     background-color: #1d1d1d;
 }
 
-@media only screen and (max-width:750px){
+@media only screen and (max-width:875px){
     .colums{
-        flex-direction: column-reverse;
+        flex-direction: column;
         margin: 25px 0;
         gap: 25px;
     }
     .colums-2{
-        flex-direction: column-reverse;
+        flex-direction: column;
         margin: 25px 0;
         gap: 25px;
+    }
+    .ini-col-1{
+        margin-top: 50px;
     }
 }
