@@ -217,6 +217,9 @@ button:hover{
 }
   
 @media only screen and (max-width:1025px){
+    .navbar{
+        margin-top: 25px;
+    }
     nav{
         text-align: center;
     }
