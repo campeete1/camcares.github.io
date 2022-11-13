@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal 1122-1a - Cameron Cares Initiative</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://assets.cammy.dev/camcares/assets/care%20clover.png">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/contact.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="/">
+                <img src="https://assets.cammy.dev/camcares/assets/care%20clover.png" class="logo">  
+            </a>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <a href="/initiatives">
+                        <button>Iniatiatives</button>
+                    </a>
+                </ul>
+            </nav>
+            <img src="https://assets.cammy.dev/camcares/assets/menu%20bar.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+    </div>
+
+        <script>
+            var menuList = document.getElementById("menuList");
+        
+            menuList.style.maxHeight = "0px";
+        
+            function togglemenu(){
+        
+                if(menuList.style.maxHeight == "0px")
+                    {
+                        menuList.style.maxHeight = "150px";
+                    }
+                else
+                    {
+                        menuList.style.maxHeight = "0px"
+                    }
+            }
+        </script>
+</body>
+</html>

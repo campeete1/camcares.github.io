@@ -4,44 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniatiatives - Cameron Cares Initiative</title>
+    <title>Test Page- Cammy Dev</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="https://assets.cammy.dev/camcares/assets/care%20clover.png">
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/initiatives.css">
+    <link rel="stylesheet" href="/styles/test.css">
 </head>
 <body>
     <div class="container">
         <div class="navbar">
             <a href="/">
-                <img src="https://assets.cammy.dev/camcares/assets/care%20clover.png" class="logo">  
+                <img src="https://assets.cammy.dev/camcares/assets/care%20clover.png" class="logo">
             </a>
             <nav>
-                <ul id="menuList">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <a href="/initiatives">
-                        <button>Iniatiatives</button>
-                    </a>
-                </ul>
+                <ul>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="/">About</a></li>
+                    <li>//</li>
+                    <li><a href="/">Playground</a></li>
+                    <li><a href="/">Lab</a></li>
             </nav>
-            <img src="https://assets.cammy.dev/camcares/assets/menu%20bar.png" class="menu-icon" onclick="togglemenu()">
+            <img src="https://assets.cammy.dev/cammylabs/icons/menu%20bar.png" class="menu-icon" onclick="togglemenu()">
         </div>
+    </div>
     <main class="testimonial-grid">
         <article class="testimonial grid-col-span-2 flow bg-primary-400 quote text-neutral-100">
           <div class="flex">
-            <div class="div-meta">
+            <div>
               <h2 class="name">Cameron McCullough</h2>
               <p class="position">Novenber 13, 2022</p>
             </div>
           </div>
-          <p class="proposal-name">
+          <p>
             Proposal 1122-1a
           </p>
-          <p class="proposal-bio">
+          <p>
             This proposal, the Charger Futures Plan, is a draft of how some students belive campus 
             cultures could become. This plan is a organized outline for a better Centennial.
 
@@ -54,15 +52,15 @@
         </article>
         <article class="testimonial flow bg-secondary-400 text-neutral-100">
           <div class="flex">
-            <div class="div-meta">
+            <div>
               <h2 class="name">Jonathan Walters</h2>
               <p class="position">Verified Graduate</p>
             </div>
           </div>
-          <p class="proposal-name">
+          <p>
             The team was very supportive and kept me motivated
           </p>
-          <p class="proposal-bio">
+          <p>
             “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer
             for a big company. This was one of the best investments I’ve made in myself. ”
           </p>
@@ -74,14 +72,14 @@
         </article>
         <article class="testimonial flow bg-neutral-100 text-secondary-400">
           <div class="flex">
-            <div class="div-meta">
+            <div>
               <h2 class="name">Jeanette Harmon</h2>
               <p class="position">Verified Graduate</p>
             </div>
           </div>
-          <p class="proposal-name">
+          <p>
             An overall wonderful and rewarding experience</p>
-            <p class="proposal-bio">
+          <p>
             “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
             while doing something I love. ”
           </p>
@@ -93,16 +91,16 @@
         </article>
         <article class="testimonial grid-col-span-2 flow bg-secondary-500 text-neutral-100">
           <div class="flex">
-            <div class="div-meta">
+            <div>
               <h2 class="name">Patrick Abrams</h2>
               <p class="position">Verified Graduate</p>
             </div>
           </div>
-          <p class="proposal-name">
+          <p>
             Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
             learning from their experiences was easy.
           </p>
-          <p class="proposal-bio">
+          <p>
             “ The staff seem genuinely concerned about my progress which I find really refreshing. The program
             gave me the confidence necessary to be able to go out in the world and present myself as a capable
             junior developer. The standard is above the rest. You will get the personal attention you need from
@@ -116,15 +114,15 @@
         </article>
         <article class="testimonial flow bg-neutral-100 text-secondary-400">
           <div class="flex">
-            <div class="div-meta">
+            <div>
               <h2 class="name">Kira Whittle</h2>
               <p class="position">Verified Graduate</p>
             </div>
           </div>
-          <p class="proposal-name">
+          <p>
             Such a life-changing experience. Highly recommended!
           </p>
-          <p class="proposal-bio">
+          <p>
             “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
             professionals who can help me learn programming step by step. I was encouraged to enroll by a former
             student of theirs who can only say wonderful things about the program. The entire curriculum and staff
@@ -141,23 +139,23 @@
         </div>
         </article>
       </main>
-
-        <script>
-            var menuList = document.getElementById("menuList");
-        
-            menuList.style.maxHeight = "0px";
-        
-            function togglemenu(){
-        
-                if(menuList.style.maxHeight == "0px")
-                    {
-                        menuList.style.maxHeight = "150px";
-                    }
-                else
-                    {
-                        menuList.style.maxHeight = "0px"
-                    }
-            }
-        </script>
+    
+    <script>
+        var menuList = document.getElementById("menuList");
+    
+        menuList.style.maxHeight = "0px";
+    
+        function togglemenu(){
+    
+            if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "150px";
+                }
+            else
+                {
+                    menuList.style.maxHeight = "0px"
+                }
+        }
+    </script>
 </body>
 </html>

@@ -32,6 +32,7 @@ nav{
     flex: 1;
     text-align: right;
     align-items: center;
+    margin-top: -15px;
 }
 nav ul li {
     list-style: none;
@@ -103,16 +104,78 @@ font-weight: 500;
     align-items: center;
     margin-right: 50px;
     margin-left: 50px;
+    background: center;
 }
 .col-2 .cam-img-1{
     max-width: 400px;
 }
 .cam-img-1{
     border-radius: 25px;
-
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-
-@media only screen and (max-width:750px){
+.footer{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.footer-nav{
+    flex: 1;
+    text-align: right;
+    align-items: center;
+}
+.footer-nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+.footer-nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+.footer-nav ul li a:hover{
+    color: #c619ff;
+}
+.footer-logo{
+    width: 275px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 0px;
+}
+.footer-nav > ul:nth-child(1) {
+    padding-left: 10px;
+   }
+.learn-cta-1{
+    background: center;
+}
+.cam-subtext-1 {
+    background: center;
+  }
+  .col-1 > h2:nth-child(2) {
+    background: center;
+  }
+  .col-1 {
+    background: center;
+  }
+  .cam-header-1 {
+    background: center;
+  }
+  .row {
+    background-color: #e5d5c3;
+    padding: 10px;
+    display: flex;
+    gap: 25px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .learn-cta-1 > a:nth-child(1) {
+    background: center;
+   }
+   
+@media only screen and (max-width:1025px){
     nav{
         text-align: center;
     }
@@ -155,8 +218,7 @@ font-weight: 500;
     }
     .row{
         flex-direction:column-reverse ;
-        margin: 75px 0;
-        gap: 25px;
+        margin: 100px 0;
     }
     .col-2 .cam-img-1{
         max-width: 300px;
@@ -164,4 +226,20 @@ font-weight: 500;
     .logo{
         margin-top: 0;
     }
+.cam-header-1 {
+    text-align: center;
+  }
+
+  .col-1 > h2:nth-child(2) {
+    text-align: center;
+  }
+
+  .cam-subtext-1 {
+    text-align: center;
+  }
+
+  .learn-cta-1 {
+    text-align: center;
+  }
+  
 }
