@@ -1,0 +1,19 @@
+.container-404 {
+    margin-top: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;       
+}
+.container-404 > h1:nth-child(1) {
+    font-size: 84px;
+    margin-bottom: 25px;
+}
+.container-404 > h3:nth-child(2) > a:nth-child(1) {
+    text-decoration: none;
+    color: #c619ff;
+   }
+   .container-404 > h3:nth-child(2) > a:nth-child(1):hover {
+    text-decoration: none;
+    color: black;
+   }
+   
