@@ -5,7 +5,6 @@
 }
 .container{
     width: 100%;
-    min-height: 100vh;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
@@ -107,7 +106,7 @@ font-weight: 500;
     background: center;
 }
 .col-2 .cam-img-1{
-    max-width: 400px;
+    max-width: 300px;
 }
 .cam-img-1{
     border-radius: 25px;
@@ -150,6 +149,9 @@ font-weight: 500;
 .learn-cta-1{
     background: center;
 }
+.learn-cta-1 button:hover{
+    background-color: #1d1d1d;
+}
 .cam-subtext-1 {
     background: center;
   }
@@ -174,7 +176,62 @@ font-weight: 500;
   .learn-cta-1 > a:nth-child(1) {
     background: center;
    }
-   
+
+/* Element | http://127.0.0.1:5500/ */
+
+.cam-header-1 > em:nth-child(1) > strong:nth-child(1) {
+    background: center;
+    color: #c619ff;
+  }
+  
+  /* Element | http://127.0.0.1:5500/ */
+  
+  .cam-header-1 > em:nth-child(1) {
+    background: center;
+    color: black;
+  }
+  
+  /* Element | http://127.0.0.1:5500/ */
+  
+  .cam-header-1 {
+    color: black;
+  }
+  
+  /* Element | http://127.0.0.1:5500/ */
+  
+  .col-1 > h2:nth-child(2) {
+    color: black;
+  }
+  
+  /* Element | http://127.0.0.1:5500/ */
+  
+  .cam-subtext-1 {
+    color: black;
+  }
+  
+  /* Element | http://127.0.0.1:5500/ */
+  
+  .row {
+    background-color: white;
+  }
+  .proposal-contanier {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+   }
+   .arrow {
+    height: 12px;
+   }
+   .back-btn > a:nth-child(1) {
+    text-decoration: none;
+   }
+   .back-btn a:hover{
+    color: #c619ff;
+   }
+   .back-btn img:hover{
+    color: #c619ff;
+   }
+  
 @media only screen and (max-width:1025px){
     nav{
         text-align: center;
@@ -221,25 +278,31 @@ font-weight: 500;
         margin: 100px 0;
     }
     .col-2 .cam-img-1{
-        max-width: 300px;
+        max-width: 250px;
     }
     .logo{
         margin-top: 0;
     }
-.cam-header-1 {
-    text-align: center;
-  }
+    .cam-header-1 {
+        text-align: center;
+    }
 
-  .col-1 > h2:nth-child(2) {
-    text-align: center;
-  }
+    .col-1 > h2:nth-child(2) {
+        text-align: center;
+    }
 
-  .cam-subtext-1 {
-    text-align: center;
-  }
+    .cam-subtext-1 {
+        text-align: center;
+    }
 
-  .learn-cta-1 {
-    text-align: center;
-  }
-  
+    .learn-cta-1 {
+        text-align: center;
+    }
+    .footer{
+        flex-direction: column-reverse;
+        margin-bottom: 25px;
+    }
+    .proposal-contanier{
+        margin: 75px;
+    }
 }

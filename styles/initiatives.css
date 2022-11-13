@@ -280,5 +280,7 @@ article.testimonial:nth-child(5) {
     background: center;
 }
 @media only screen and (max-width:1025px){
-    
+    .testimonial-grid{
+      margin-top: 50px;
+    }
 }
