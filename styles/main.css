@@ -71,6 +71,7 @@ button:hover{
 }
 .button-learn-more-1 {
     font-size: 14px;
+    margin-right: 0px;
 }
 .row{
     display: flex;
